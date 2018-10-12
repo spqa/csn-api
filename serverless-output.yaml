@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  GraphQL:
+    Properties:
+      CodeUri: s3://csn-api/57ab7fc4efffefd677b137f1e619c66e
+      Events:
+        AnyRequest:
+          Properties:
+            Method: ANY
+            Path: /api
+          Type: Api
+      Handler: index.handle
+      Runtime: nodejs8.10
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31
