@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: '2010-09-09'
 Resources:
   GraphQL:
     Properties:
-      CodeUri: s3://csn-api/57ab7fc4efffefd677b137f1e619c66e
+      CodeUri: s3://csn-api/a4977c94749a8bc0f172bd64d5e58554
       Events:
         AnyRequest:
           Properties:

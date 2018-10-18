@@ -10,6 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "apollo-server-lambda": "^2.1.0",
-    "graphql": "^14.0.2"
+    "graphql": "^14.0.2",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.27"
   }
 }
